@@ -1,6 +1,31 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    console.log("works");
-    
-    getJoke('Any');
+    document.getElementById('randomjokebutton').addEventListener('click', function() {
+        getJoke('Any'); 
+    });
 });
+
+
+function getJoke(category) {
+
+    const url = `https://v2.jokeapi.dev/joke/${category}?safe-mode`;
+
+  
+    fetch(url)
+        .then(response => response.json()) 
+        .then(data => { 
+            let jokeText = '';
+            if (data.type === 'single') {
+                jokeText = data.joke;
+            } else if (data.type === 'twopart') {
+                jokeText = `${data.setup} ... ${data.delivery}`; 
+            }
+
+
+            document.getElementById("joke").textContent = jokeText;
+        })
+        .catch(error => {
+
+            document.getElementById("joke").textContent = 'Sorry, there was an error fetching the joke!';
+        });
+}
