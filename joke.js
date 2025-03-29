@@ -26,6 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById('christmasjokebutton').addEventListener('click', function() {
         getJoke('Christmas');
+   
+    });
 
 });
 
@@ -52,4 +54,4 @@ function getJoke(category) {
 
             document.getElementById("joke").textContent = 'Sorry, there was an error fetching the joke!';
         });
-}
+    }
