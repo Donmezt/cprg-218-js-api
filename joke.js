@@ -2,31 +2,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById('randomjokebutton').addEventListener('click', function() {
         getJoke('Any');
-        
+        document.title = '';
     });
         document.getElementById('programmingjokebutton').addEventListener('click', function() {
         getJoke('Programming');
-
+        document.title = '';
     });
 
     document.getElementById('miscjokebutton').addEventListener('click', function() {
         getJoke('Misc');
-
+        document.title = '';
     });
 
     document.getElementById('punjokebutton').addEventListener('click', function() {
         getJoke('Pun');
-
+        document.title = '';
     });
 
     document.getElementById('spookyjokebutton').addEventListener('click', function() {
         getJoke('Spooky');
-
+        document.title = '';
     });
 
     document.getElementById('christmasjokebutton').addEventListener('click', function() {
         getJoke('Christmas');
-   
+        document.title = '';
     });
 
 });
