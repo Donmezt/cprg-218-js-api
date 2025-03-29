@@ -2,35 +2,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById('randomjokebutton').addEventListener('click', function() {
         getJoke('Any');
-
-        document.getElementById('programmingjokebutton').addEventListener('click, function()'{
-        getJoke('programming')
+        
+    });
+        document.getElementById('programmingjokebutton').addEventListener('click', function() {
+        getJoke('Programming');
 
     });
 
-    document.getElementById('miscjokebutton').addEventListener('click, function()'{
-        getJoke('misc')
+    document.getElementById('miscjokebutton').addEventListener('click', function() {
+        getJoke('Misc');
 
     });
 
-    document.getElementById('punjokebutton').addEventListener('click, function()'{
-        getJoke('pun')
+    document.getElementById('punjokebutton').addEventListener('click', function() {
+        getJoke('Pun');
 
     });
 
-    document.getElementById('spookyjokebutton').addEventListener('click, function()'{
-        getJoke('spooky')
+    document.getElementById('spookyjokebutton').addEventListener('click', function() {
+        getJoke('Spooky');
 
     });
 
-    document.getElementById('christmasjokebutton').addEventListener('click, function()'{
-        getJoke('christmas')
+    document.getElementById('christmasjokebutton').addEventListener('click', function() {
+        getJoke('Christmas');
 
-    });
-
-  
-
-    });
 });
 
 
