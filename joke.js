@@ -2,32 +2,37 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById('randomjokebutton').addEventListener('click', function() {
         getJoke('Any');
-        document.title = 'A random joke';
-        document.getElementById('title').textContent = '';
+        document.title = 'A Random Joke';
+        document.getElementById('title').textContent = 'A Random Joke';
     });
         document.getElementById('programmingjokebutton').addEventListener('click', function() {
         getJoke('Programming');
         document.title = 'Programming';
+        document.getElementById('title').textContent = 'Programming';
     });
 
     document.getElementById('miscjokebutton').addEventListener('click', function() {
         getJoke('Misc');
         document.title = 'Misc';
+        document.getElementById('title').textContent = 'Misc';
     });
 
     document.getElementById('punjokebutton').addEventListener('click', function() {
         getJoke('Pun');
-        document.title = 'A random Pun';
+        document.title = 'A Random Pun';
+        document.getElementById('title').textContent = 'A Random Pun';
     });
 
     document.getElementById('spookyjokebutton').addEventListener('click', function() {
         getJoke('Spooky');
         document.title = 'Spooky';
+        document.getElementById('title').textContent = 'Spooky';
     });
 
     document.getElementById('christmasjokebutton').addEventListener('click', function() {
         getJoke('Christmas');
         document.title = 'Christmas';
+        document.getElementById('title').textContent = 'Christmas';
     });
 
 });
