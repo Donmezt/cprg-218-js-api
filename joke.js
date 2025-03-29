@@ -1,7 +1,39 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById('randomjokebutton').addEventListener('click', function() {
-        getJoke('Any'); 
+        getJoke('Any');
+
+        document.getElementById('').addEventListener('click, function()'{
+        getJoke('')
+
+    });
+
+    document.getElementById('').addEventListener('click, function()'{
+        getJoke('')
+
+    });
+
+    document.getElementById('').addEventListener('click, function()'{
+        getJoke('')
+
+    });
+
+    document.getElementById('').addEventListener('click, function()'{
+        getJoke('')
+
+    });
+
+    document.getElementById('').addEventListener('click, function()'{
+        getJoke('')
+
+    });
+
+    document.getElementById('').addEventListener('click, function()'{
+        getJoke('')
+
+    });
+
+
     });
 });
 
