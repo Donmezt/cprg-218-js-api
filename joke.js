@@ -3,36 +3,32 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('randomjokebutton').addEventListener('click', function() {
         getJoke('Any');
 
-        document.getElementById('').addEventListener('click, function()'{
-        getJoke('')
+        document.getElementById('programmingjokebutton').addEventListener('click, function()'{
+        getJoke('programming')
 
     });
 
-    document.getElementById('').addEventListener('click, function()'{
-        getJoke('')
+    document.getElementById('miscjokebutton').addEventListener('click, function()'{
+        getJoke('misc')
 
     });
 
-    document.getElementById('').addEventListener('click, function()'{
-        getJoke('')
+    document.getElementById('punjokebutton').addEventListener('click, function()'{
+        getJoke('pun')
 
     });
 
-    document.getElementById('').addEventListener('click, function()'{
-        getJoke('')
+    document.getElementById('spookyjokebutton').addEventListener('click, function()'{
+        getJoke('spooky')
 
     });
 
-    document.getElementById('').addEventListener('click, function()'{
-        getJoke('')
+    document.getElementById('christmasjokebutton').addEventListener('click, function()'{
+        getJoke('christmas')
 
     });
 
-    document.getElementById('').addEventListener('click, function()'{
-        getJoke('')
-
-    });
-
+  
 
     });
 });
